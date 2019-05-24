@@ -6,6 +6,7 @@ GENERATOR='generate_instance.py'
 TSP='tsp_instances'
 STP='stp_instances'
 
+mkdir $STP
 for tsp_file in $TSP/*.tsp
 do
     tsp_file=$(basename -- "$tsp_file")
