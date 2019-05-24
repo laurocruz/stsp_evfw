@@ -20,7 +20,7 @@ page = page[i:j]
 for l in page:
     if not l.startswith('<LI>'):
         continue
-    file_name = l.split('>')[2][1:-3]
+    file_name = l.split('\"')[1]
     file_url = partial_url + file_name
     print('Get {:s}'.format(file_name))
     content = http.request('GET', file_url).data.decode('utf-8')

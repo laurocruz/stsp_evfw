@@ -283,7 +283,7 @@ double decode_Ap(EF::SP_instance &problem, int s, std::vector <double>& costs_ve
 		pos++;
 	}
 
-	const int runs = 5;
+	const int runs = 1;
 	long long tour_cost = LKH_LOWER_DIAG_ROW(graph, nodes, runs, tour);
 	tour[nodes] = tour[0];
 

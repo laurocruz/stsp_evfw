@@ -48,7 +48,12 @@ def read_header(f):
   while True:
     line = f.readline()
     if line.startswith('TYPE'):
-      t = line.split()[-1]
+      s = line.split()
+      t = ''
+      if s[1] == ':':
+        t = s[2]
+      else:
+        t = s[1]
       if t != 'TSP':
         raise Exception('TYPE ' + t + ' not supported.')
 
@@ -104,8 +109,8 @@ def encode_edge(u, v):
 # If there is a letter in the line that means we are not reading edges
 # or points anymore.
 def finished_reading(line):
-  pattern = re.compile(r'[A-Za-z_]')
-  if pattern.findall(line):
+  pattern = re.compile(r'[A-Z_]')
+  if line == '\n' or pattern.findall(line):
     return True
   return False
 
@@ -187,7 +192,7 @@ def read_euc_2d(input_file, dimension):
     points.append((float(x), float(y)))
 
   edges = []
-  for u in range(1, len(points)):
+  for u in range(1, dimension):
     for v in range(u):
       edges.append(distance(points[u], points[v]))
 
@@ -286,4 +291,3 @@ def main():
 
 if __name__ == '__main__':
   main()
-
