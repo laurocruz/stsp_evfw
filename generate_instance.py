@@ -110,7 +110,7 @@ def encode_edge(u, v):
 # or points anymore.
 def finished_reading(line):
   pattern = re.compile(r'[A-Z_]')
-  if line == '\n' or pattern.findall(line):
+  if len(line) == 0 or line == '\n' or pattern.findall(line):
     return True
   return False
 
@@ -211,16 +211,10 @@ def read_edges(input_file, dimension, edge_weight_type, edge_weight_format):
   return edges
 
 
-def inflate_edges(edges, scenarios, factor_max):
-  scenarios_edges = [edges.copy() for _ in range(scenarios)]
+def inflate_edge(edge, scenarios, factor_max):
+  return [int(edge * (random.random() * factor_max + 1)) for _ in range(scenarios)]
 
-  for scenario_edges in scenarios_edges:
-    for i in range(len(scenario_edges)):
-      scenario_edges[i] = int(scenario_edges[i] * ((random.random() * factor_max) + 1))
-
-  return scenarios_edges
-
-def write_output_file(output_file, dimension, edges, scenarios_edges, probabilities):
+def write_output_file(output_file, dimension, edges, probabilities, factor_max):
     # Comment section.
   output_file.write('SECTION Comment\n')
   output_file.write('Auto Generated file.\n')
@@ -228,13 +222,13 @@ def write_output_file(output_file, dimension, edges, scenarios_edges, probabilit
   output_file.write('Name \"{:s}\"\n'.format(name))
   output_file.write('Problem \"Stochastic Traveling Salesman Problem\"\n')
   output_file.write('Dimension: {:d}\n'.format(dimension))
-  output_file.write('Scenarios: {:d}\n'.format(len(scenarios_edges)))
+  output_file.write('Scenarios: {:d}\n'.format(len(probabilities)))
   output_file.write('END\n\n')
 
   output_file.write('SECTION Graph\n')
   output_file.write('Nodes {:d}\n'.format(dimension))
   output_file.write('Edges {:d}\n'.format(len(edges)))
-  output_file.write('Scenarios {:d}\n'.format(len(scenarios_edges)))
+  output_file.write('Scenarios {:d}\n'.format(len(probabilities)))
   output_file.write('Root 0\n')
   i = 0
   for u in range(1, dimension):
@@ -249,8 +243,8 @@ def write_output_file(output_file, dimension, edges, scenarios_edges, probabilit
   output_file.write('END\n\n')
 
   output_file.write('SECTION StochasticWeights\n')
-  for i in range(len(edges)):
-    stochastic_edges = [scenarios_edges[j][i] for j in range(len(probabilities))]
+  for edge in edges:
+    stochastic_edges = inflate_edge(edge, len(probabilities), factor_max)
     stochastic_edges_string = ' '.join(map(str, stochastic_edges))
     output_file.write('SE {:s}\n'.format(stochastic_edges_string))
   output_file.write('END\n\n')
@@ -283,10 +277,8 @@ def main():
   edges = read_edges(input_file, dimension, edge_weight_type, edge_weight_format)
   input_file.close()
 
-  scenarios_edges = inflate_edges(edges, scenarios, factor_max)
-
   output_file = open(output_file_name, 'w')
-  write_output_file(output_file, dimension, edges, scenarios_edges, probabilities)
+  write_output_file(output_file, dimension, edges, probabilities, factor_max)
   output_file.close()
 
 if __name__ == '__main__':
