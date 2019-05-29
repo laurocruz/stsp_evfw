@@ -392,7 +392,7 @@ static void SetParameters(int runs) {
    SubsequentMoveTypeSpecial = 0;
    SubsequentPatching = 1;
    TimeLimit = DBL_MAX;
-   TraceLevel = 1;
+   TraceLevel = 0;
    TSPTW_Makespan = 0;
    s1_Gain23 = 0;
    OldReversed_Gain23 = 0;

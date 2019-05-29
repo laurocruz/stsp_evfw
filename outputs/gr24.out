@@ -1,0 +1,44 @@
+Reading instance stp_instances/gr24.stp of type D
+Finished instance reading
+Number of vertices = 24
+Number of edges (resources) = 276
+Number of scenarios = 5
+Average number of terminals per scenario = 24
+Probabilities of Scenarios: (0) 0.15 | (1) 0.15 | (2) 0.33 | (3) 0.32 | (4) 0.05 | 
+Average weighted inflation = 2.04775
+Largest inflation = 3.98876
+MAX_ITERATIONS_SINCE_LAST_IMPROVEMENT 2
+MAX_ITERATIONS_SINCE_BEST_SOLUTION 3
+Creating solution instance.
+Starting Evolutive Framework.
+Local search solution cost = 1823
+Local search time = 2.91223
+2.91225 local search - EF main loop cycle 0 solution cost 1823
+2.91426s Cost of SP solution after second stage solver 1823
+Local search solution cost = 1556
+Local search time = 0.692493
+3.60678 local search - EF main loop cycle 1 solution cost 1556
+3.60783s Cost of SP solution after second stage solver 1556
+Local search solution cost = 1556
+Local search time = 0.642872
+4.25072 local search - EF main loop cycle 2 solution cost 1556
+4.25177s Cost of SP solution after second stage solver 1556
+Local search solution cost = 1556
+Local search time = 0.64654
+4.89833 local search - EF main loop cycle 3 solution cost 1556
+4.89938s Cost of SP solution after second stage solver 1556
+Number of cycles 4
+Time for each cycle 1.22485
+4.90048s Cost of SP solution after tail step 1556
+SELECTED RESOURCES:
+3 10 17 47 58 63 74 79 82 110 115 129 152 167 172 185 196 197 227 228 235 243 260 262 
+SCENARIO'S RESOURCES:
+S 0: 0 | 3 10 17 47 58 63 74 79 82 110 115 129 152 167 172 185 196 197 227 228 235 243 260 262 
+S 1: 0 | 3 10 17 47 58 63 74 79 82 110 115 129 152 167 172 185 196 197 227 228 235 243 260 262 
+S 2: 0 | 3 10 17 47 58 63 74 79 82 110 115 129 152 167 172 185 196 197 227 228 235 243 260 262 
+S 3: 0 | 3 10 17 47 58 63 74 79 82 110 115 129 152 167 172 185 196 197 227 228 235 243 260 262 
+S 4: 0 | 3 10 17 47 58 63 74 79 82 110 115 129 152 167 172 185 196 197 227 228 235 243 260 262 
+ALL EQUAL
+
+Final time = 4.90201
+Final solution cost = 1556

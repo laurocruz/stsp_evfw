@@ -1,0 +1,44 @@
+Reading instance stp_instances/fri26.stp of type D
+Finished instance reading
+Number of vertices = 26
+Number of edges (resources) = 325
+Number of scenarios = 5
+Average number of terminals per scenario = 26
+Probabilities of Scenarios: (0) 0.32 | (1) 0.13 | (2) 0.22 | (3) 0.03 | (4) 0.3 | 
+Average weighted inflation = 2.00792
+Largest inflation = 3.98148
+MAX_ITERATIONS_SINCE_LAST_IMPROVEMENT 2
+MAX_ITERATIONS_SINCE_BEST_SOLUTION 3
+Creating solution instance.
+Starting Evolutive Framework.
+Local search solution cost = 1418
+Local search time = 3.69493
+3.69496 local search - EF main loop cycle 0 solution cost 1418
+3.69658s Cost of SP solution after second stage solver 1418
+Local search solution cost = 1286
+Local search time = 0.552455
+4.24906 local search - EF main loop cycle 1 solution cost 1286
+4.25015s Cost of SP solution after second stage solver 1286
+Local search solution cost = 1286
+Local search time = 0.552043
+4.80221 local search - EF main loop cycle 2 solution cost 1286
+4.80332s Cost of SP solution after second stage solver 1286
+Local search solution cost = 1286
+Local search time = 0.553268
+5.3566 local search - EF main loop cycle 3 solution cost 1286
+5.35769s Cost of SP solution after second stage solver 1286
+Number of cycles 4
+Time for each cycle 1.33942
+5.35876s Cost of SP solution after tail step 1286
+SELECTED RESOURCES:
+0 1 4 9 14 17 34 43 53 65 75 90 102 104 112 152 168 188 189 252 273 275 281 296 316 321 
+SCENARIO'S RESOURCES:
+S 0: 0 | 0 1 4 9 14 17 34 43 53 65 75 90 102 104 112 152 168 188 189 252 273 275 281 296 316 321 
+S 1: 0 | 0 1 4 9 14 17 34 43 53 65 75 90 102 104 112 152 168 188 189 252 273 275 281 296 316 321 
+S 2: 0 | 0 1 4 9 14 17 34 43 53 65 75 90 102 104 112 152 168 188 189 252 273 275 281 296 316 321 
+S 3: 0 | 0 1 4 9 14 17 34 43 53 65 75 90 102 104 112 152 168 188 189 252 273 275 281 296 316 321 
+S 4: 0 | 0 1 4 9 14 17 34 43 53 65 75 90 102 104 112 152 168 188 189 252 273 275 281 296 316 321 
+ALL EQUAL
+
+Final time = 5.36055
+Final solution cost = 1286

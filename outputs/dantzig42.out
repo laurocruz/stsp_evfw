@@ -1,0 +1,44 @@
+Reading instance stp_instances/dantzig42.stp of type D
+Finished instance reading
+Number of vertices = 42
+Number of edges (resources) = 861
+Number of scenarios = 5
+Average number of terminals per scenario = 42
+Probabilities of Scenarios: (0) 0.25 | (1) 0.33 | (2) 0.31 | (3) 0.05 | (4) 0.06 | 
+Average weighted inflation = 1.97377
+Largest inflation = 3.99099
+MAX_ITERATIONS_SINCE_LAST_IMPROVEMENT 2
+MAX_ITERATIONS_SINCE_BEST_SOLUTION 3
+Creating solution instance.
+Starting Evolutive Framework.
+Local search solution cost = 958
+Local search time = 16.9302
+16.9302 local search - EF main loop cycle 0 solution cost 958
+16.9332s Cost of SP solution after second stage solver 958
+Local search solution cost = 796
+Local search time = 2.7287
+19.662 local search - EF main loop cycle 1 solution cost 796
+19.6635s Cost of SP solution after second stage solver 796
+Local search solution cost = 796
+Local search time = 2.73456
+22.3981 local search - EF main loop cycle 2 solution cost 796
+22.3996s Cost of SP solution after second stage solver 796
+Local search solution cost = 796
+Local search time = 2.73099
+25.1306 local search - EF main loop cycle 3 solution cost 796
+25.1321s Cost of SP solution after second stage solver 796
+Number of cycles 4
+Time for each cycle 6.28303
+25.1336s Cost of SP solution after tail step 796
+SELECTED RESOURCES:
+0 2 5 9 14 20 27 35 44 64 76 103 104 118 151 170 187 189 206 230 242 252 263 299 324 350 377 405 434 495 525 526 559 594 664 665 701 740 779 819 820 860 
+SCENARIO'S RESOURCES:
+S 0: 0 | 0 2 5 9 14 20 27 35 44 64 76 103 104 118 151 170 187 189 206 230 242 252 263 299 324 350 377 405 434 495 525 526 559 594 664 665 701 740 779 819 820 860 
+S 1: 0 | 0 2 5 9 14 20 27 35 44 64 76 103 104 118 151 170 187 189 206 230 242 252 263 299 324 350 377 405 434 495 525 526 559 594 664 665 701 740 779 819 820 860 
+S 2: 0 | 0 2 5 9 14 20 27 35 44 64 76 103 104 118 151 170 187 189 206 230 242 252 263 299 324 350 377 405 434 495 525 526 559 594 664 665 701 740 779 819 820 860 
+S 3: 0 | 0 2 5 9 14 20 27 35 44 64 76 103 104 118 151 170 187 189 206 230 242 252 263 299 324 350 377 405 434 495 525 526 559 594 664 665 701 740 779 819 820 860 
+S 4: 0 | 0 2 5 9 14 20 27 35 44 64 76 103 104 118 151 170 187 189 206 230 242 252 263 299 324 350 377 405 434 495 525 526 559 594 664 665 701 740 779 819 820 860 
+ALL EQUAL
+
+Final time = 25.1362
+Final solution cost = 796

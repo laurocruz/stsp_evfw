@@ -28,7 +28,7 @@ int EF_second_stage_solver::solve_exact(int scenario,
 		else allele_cost[i] = (*costs_in_scenario)[i];
 	}
 
-	total_cost += problem.decode_Ap(problem, scenario, allele_cost, resource_map);
+	problem.decode_Ap(problem, scenario, allele_cost, resource_map);
 
 	// Created fake chromosome.
 	// If resource is used: Allele = 0
@@ -36,11 +36,9 @@ int EF_second_stage_solver::solve_exact(int scenario,
 	for (int i = 0; i < problem.get_number_of_resources(); i++){
 		if (resource_map[i] == true) {
 			chromosome[i] = 0;
-			/*
 			if (selected_resources[i] == false) {
 				total_cost += (*costs_in_scenario)[i];
 			}
-			*/
 		} else chromosome[i] = 1;
 	}
 

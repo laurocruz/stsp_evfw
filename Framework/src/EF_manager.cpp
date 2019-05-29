@@ -1,5 +1,7 @@
 #include "EF_manager.h"
 
+#include <algorithm>
+
 namespace EF {
 
 EF_manager::EF_manager(SP_instance &problem, int verbose, int time_limit,
@@ -169,14 +171,21 @@ int EF_manager::solve(double (*decode_Ap)(EF::SP_instance &, int, std::vector <d
 		solution.set_new_partial_solution_loc(timer.elapsed(), second_stage_solver.get_solution_value(), str);
 	}
 
-	std::cout << "SELECTED RESOURCES: ";
+	std::cout << "SELECTED RESOURCES:\n";
+	std::vector<int> ordered_resources;
 	for (int i = 0; i < problem.get_number_of_resources(); ++i) {
 		if (best_selected_resources[i]) {
-			std::cout << problem.id_final_to_reading_position[i] << " ";
+			ordered_resources.push_back(problem.id_final_to_reading_position[i]);
 		}
 	}
+	sort(ordered_resources.begin(), ordered_resources.end());
+	for (int i = 0; i < ordered_resources.size(); ++i) {
+		std::cout << ordered_resources[i] << " ";
+	}
 	std::cout << std::endl;
-	std::cout << "BEST CROMOS: \n";
+
+/*
+	std::cout << "BEST CROMOS:\n";
 	std::vector<double> crom(problem.get_number_of_resources());
 	for (int s = 0; s < problem.get_number_of_scenarios(); s++) {
 		std::cout << "S " << s << ": ";
@@ -186,11 +195,14 @@ int EF_manager::solve(double (*decode_Ap)(EF::SP_instance &, int, std::vector <d
 		for(int i = 0; i < problem.get_number_of_resources(); i++) {
 			std::cout << crom[i] << " ";
 		}
-		std::cout << std::endl;
+		std::cout << "\n\n";
 	}
+*/
 
+	std::cout << "SCENARIO'S RESOURCES:\n";
 	std::vector<bool> aux_solution(problem.get_number_of_resources(), false);
 	std::vector<double> p_costs(problem.get_number_of_resources());
+	bool all_equal = true;
 	for (int s = 0; s < problem.get_number_of_scenarios(); ++s) {
 		for (int i = 0; i < problem.get_number_of_resources(); ++i) {
 			if (best_selected_resources[i]) p_costs[i] = 0;
@@ -198,15 +210,23 @@ int EF_manager::solve(double (*decode_Ap)(EF::SP_instance &, int, std::vector <d
 		}
 		const int tour_cost = decode_Ap(problem, s, p_costs, aux_solution);
 		std::cout << "S " << s << ": " << tour_cost << " | ";
+		std::vector<int> scenario_ordered_resources;
 		for (int i = 0; i < problem.get_number_of_resources(); ++i) {
 			if (aux_solution[i]) {
-				std::cout << problem.id_final_to_reading_position[i] << " ";
+				scenario_ordered_resources.push_back(problem.id_final_to_reading_position[i]);
 				aux_solution[i] = false;
 			}
 		}
+		sort(scenario_ordered_resources.begin(), scenario_ordered_resources.end());
+		for (int i = 0; i < scenario_ordered_resources.size(); ++i) {
+			std::cout << scenario_ordered_resources[i] << " ";
+		}
+		if (ordered_resources != scenario_ordered_resources) all_equal = false;
 		std::cout << std::endl;
 	}
-
+	if (all_equal) {
+		std::cout << "ALL EQUAL\n";
+	}
 
 	time_used = timer.elapsed();
 	solution_value = best_global_solution;

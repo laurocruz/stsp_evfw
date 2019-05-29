@@ -1,0 +1,44 @@
+Reading instance stp_instances/bayg29.stp of type D
+Finished instance reading
+Number of vertices = 29
+Number of edges (resources) = 406
+Number of scenarios = 5
+Average number of terminals per scenario = 29
+Probabilities of Scenarios: (0) 0.1 | (1) 0.26 | (2) 0.32 | (3) 0.19 | (4) 0.13 | 
+Average weighted inflation = 2.04054
+Largest inflation = 3.99379
+MAX_ITERATIONS_SINCE_LAST_IMPROVEMENT 2
+MAX_ITERATIONS_SINCE_BEST_SOLUTION 3
+Creating solution instance.
+Starting Evolutive Framework.
+Local search solution cost = 2440
+Local search time = 5.24356
+5.24361 local search - EF main loop cycle 0 solution cost 2440
+5.24542s Cost of SP solution after second stage solver 2440
+Local search solution cost = 1849
+Local search time = 0.795337
+6.04077 local search - EF main loop cycle 1 solution cost 1849
+6.04194s Cost of SP solution after second stage solver 1849
+Local search solution cost = 1849
+Local search time = 0.794316
+6.83628 local search - EF main loop cycle 2 solution cost 1849
+6.83744s Cost of SP solution after second stage solver 1849
+Local search solution cost = 1849
+Local search time = 0.836774
+7.67424 local search - EF main loop cycle 3 solution cost 1849
+7.67579s Cost of SP solution after second stage solver 1849
+Number of cycles 4
+Time for each cycle 1.91895
+7.67803s Cost of SP solution after tail step 1849
+SELECTED RESOURCES:
+14 30 32 39 60 66 73 94 133 150 152 168 180 191 209 220 223 237 249 268 282 286 301 332 348 351 362 380 403 
+SCENARIO'S RESOURCES:
+S 0: 0 | 14 30 32 39 60 66 73 94 133 150 152 168 180 191 209 220 223 237 249 268 282 286 301 332 348 351 362 380 403 
+S 1: 0 | 14 30 32 39 60 66 73 94 133 150 152 168 180 191 209 220 223 237 249 268 282 286 301 332 348 351 362 380 403 
+S 2: 0 | 14 30 32 39 60 66 73 94 133 150 152 168 180 191 209 220 223 237 249 268 282 286 301 332 348 351 362 380 403 
+S 3: 0 | 14 30 32 39 60 66 73 94 133 150 152 168 180 191 209 220 223 237 249 268 282 286 301 332 348 351 362 380 403 
+S 4: 0 | 14 30 32 39 60 66 73 94 133 150 152 168 180 191 209 220 223 237 249 268 282 286 301 332 348 351 362 380 403 
+ALL EQUAL
+
+Final time = 7.68136
+Final solution cost = 1849

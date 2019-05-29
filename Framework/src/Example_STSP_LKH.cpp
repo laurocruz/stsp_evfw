@@ -99,8 +99,6 @@ void readInstanceDIMACS(EF::SP_instance &problem, char * instance_name){
 		myfile >> temp_d;
 
 		Edge e = g.findEdge(g.nodeFromId(head), g.nodeFromId(tail));
-		cout << head << " " << tail << endl;
-		cout << g.id(e) << endl;
 		(problem.cost_first_stage)[g.id(e)] = (int) temp_d; //To correct edges order
 
 		(problem.cost_in_scenario[g.id(e)]).resize(problem.number_of_scenarios);
