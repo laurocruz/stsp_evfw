@@ -1,0 +1,17 @@
+Reading instance small_stp_instances/pr152_5_03.stp of type D
+Finished instance reading
+Number of vertices = 152
+Number of edges (resources) = 11476
+Number of scenarios = 5
+Average number of terminals per scenario = 152
+Probabilities of Scenarios: (0) 0.37 | (1) 0.35 | (2) 0.03 | (3) 0.11 | (4) 0.14 | 
+Average weighted inflation = 0.149593
+Largest inflation = 0.299936
+MAX_ITERATIONS_SINCE_LAST_IMPROVEMENT 2
+MAX_ITERATIONS_SINCE_BEST_SOLUTION 3
+Creating solution instance.
+Starting Evolutive Framework.
+Local search solution cost = 74343.6
+Local search time = 16944.4
+16944.4 local search - EF main loop cycle 0 solution cost 74343.6
+16944.4s Cost of SP solution after second stage solver 74343.6

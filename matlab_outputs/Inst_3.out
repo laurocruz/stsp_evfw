@@ -1,0 +1,59 @@
+Reading instance matlab_stp_instances/Inst_3.stp of type D
+Finished instance reading
+Number of vertices = 4
+Number of edges (resources) = 6
+Number of scenarios = 25
+Average number of terminals per scenario = 4
+Probabilities of Scenarios: (0) 0.0540572 | (1) 0.0586798 | (2) 0.0353373 | (3) 0.00657437 | (4) 0.0179594 | (5) 0.0716358 | (6) 0.0119515 | (7) 0.0647713 | (8) 0.0422238 | (9) 0.0781299 | (10) 0.00613154 | (11) 0.0347206 | (12) 0.0083651 | (13) 0.0754446 | (14) 0.000363476 | (15) 0.0607786 | (16) 0.0641036 | (17) 0.0681344 | (18) 0.00662256 | (19) 0.0313562 | (20) 0.0203824 | (21) 0.0627518 | (22) 0.0338371 | (23) 0.0714249 | (24) 0.0142628 | 
+Average weighted inflation = inf
+Largest inflation = inf
+MAX_ITERATIONS_SINCE_LAST_IMPROVEMENT 2
+MAX_ITERATIONS_SINCE_BEST_SOLUTION 3
+Creating solution instance.
+Starting Evolutive Framework.
+Local search solution cost = 0
+Local search time = 0.0425549
+0.0425899 local search - EF main loop cycle 0 solution cost 0
+0.0516129s Cost of SP solution after second stage solver 0
+Local search solution cost = 0
+Local search time = 0.0389471
+0.0906088 local search - EF main loop cycle 1 solution cost 0
+0.097904s Cost of SP solution after second stage solver 0
+Local search solution cost = 0
+Local search time = 0.0599141
+0.157885 local search - EF main loop cycle 2 solution cost 0
+0.164264s Cost of SP solution after second stage solver 0
+Number of cycles 3
+Time for each cycle 0.0548007
+0.174853s Cost of SP solution after tail step 0
+SELECTED RESOURCES:
+0 1 2 3 
+SCENARIO'S RESOURCES:
+S 0: 0 | 0 1 4 5 
+S 1: 0 | 0 1 4 5 
+S 2: 0 | 0 1 4 5 
+S 3: 0 | 0 1 4 5 
+S 4: 0 | 0 1 4 5 
+S 5: 0 | 0 1 4 5 
+S 6: 0 | 0 1 4 5 
+S 7: 0 | 0 1 4 5 
+S 8: 0 | 0 1 4 5 
+S 9: 0 | 0 1 4 5 
+S 10: 0 | 0 1 4 5 
+S 11: 0 | 0 1 4 5 
+S 12: 0 | 0 1 4 5 
+S 13: 0 | 0 1 4 5 
+S 14: 0 | 0 1 4 5 
+S 15: 0 | 0 1 4 5 
+S 16: 0 | 0 1 4 5 
+S 17: 0 | 0 1 4 5 
+S 18: 0 | 0 1 4 5 
+S 19: 0 | 0 1 4 5 
+S 20: 0 | 0 1 4 5 
+S 21: 0 | 0 1 4 5 
+S 22: 0 | 0 1 4 5 
+S 23: 0 | 0 1 4 5 
+S 24: 0 | 0 1 4 5 
+
+Final time = 0.185479
+Final solution cost = 0

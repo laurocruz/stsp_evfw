@@ -1,0 +1,44 @@
+Reading instance small_stp_instances/fri26_5_10.stp of type D
+Finished instance reading
+Number of vertices = 26
+Number of edges (resources) = 325
+Number of scenarios = 5
+Average number of terminals per scenario = 26
+Probabilities of Scenarios: (0) 0.52 | (1) 0 | (2) 0.19 | (3) 0.26 | (4) 0.03 | 
+Average weighted inflation = 0.498635
+Largest inflation = 0.995516
+MAX_ITERATIONS_SINCE_LAST_IMPROVEMENT 2
+MAX_ITERATIONS_SINCE_BEST_SOLUTION 3
+Creating solution instance.
+Starting Evolutive Framework.
+Local search solution cost = 1022.82
+Local search time = 2.99969
+2.99972 local search - EF main loop cycle 0 solution cost 1022.82
+3.00131s Cost of SP solution after second stage solver 1022.82
+Local search solution cost = 1002
+Local search time = 0.508312
+3.50964 local search - EF main loop cycle 1 solution cost 1002
+3.51073s Cost of SP solution after second stage solver 1002
+Local search solution cost = 1002
+Local search time = 0.508379
+4.01913 local search - EF main loop cycle 2 solution cost 1002
+4.02022s Cost of SP solution after second stage solver 1002
+Local search solution cost = 1002
+Local search time = 0.507933
+4.52817 local search - EF main loop cycle 3 solution cost 1002
+4.52925s Cost of SP solution after second stage solver 1002
+Number of cycles 4
+Time for each cycle 1.13232
+4.53033s Cost of SP solution after tail step 1002
+SELECTED RESOURCES:
+0 1 4 13 14 19 27 35 44 65 77 80 103 104 114 152 168 188 189 206 230 275 286 299 321 322 
+SCENARIO'S RESOURCES:
+S 0: 0 | 0 1 4 13 14 19 27 35 44 65 77 80 103 104 114 152 168 188 189 206 230 275 286 299 321 322 
+S 1: 0 | 0 1 4 13 14 19 27 35 44 65 77 80 103 104 114 152 168 188 189 206 230 275 286 299 321 322 
+S 2: 0 | 0 1 4 13 14 19 27 35 44 65 77 80 103 104 114 152 168 188 189 206 230 275 286 299 321 322 
+S 3: 0 | 0 1 4 13 14 19 27 35 44 65 77 80 103 104 114 152 168 188 189 206 230 275 286 299 321 322 
+S 4: 0 | 0 1 4 13 14 19 27 35 44 65 77 80 103 104 114 152 168 188 189 206 230 275 286 299 321 322 
+ALL EQUAL
+
+Final time = 4.53193
+Final solution cost = 1002

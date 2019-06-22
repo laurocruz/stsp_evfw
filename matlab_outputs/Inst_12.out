@@ -1,0 +1,36 @@
+Reading instance matlab_stp_instances/Inst_12.stp of type D
+Finished instance reading
+Number of vertices = 10
+Number of edges (resources) = 45
+Number of scenarios = 2
+Average number of terminals per scenario = 10
+Probabilities of Scenarios: (0) 0.195931 | (1) 0.804069 | 
+Average weighted inflation = inf
+Largest inflation = inf
+MAX_ITERATIONS_SINCE_LAST_IMPROVEMENT 2
+MAX_ITERATIONS_SINCE_BEST_SOLUTION 3
+Creating solution instance.
+Starting Evolutive Framework.
+Local search solution cost = 0
+Local search time = 0.0688071
+0.0688369 local search - EF main loop cycle 0 solution cost 0
+0.0700631s Cost of SP solution after second stage solver 0
+Local search solution cost = 0
+Local search time = 0.0475011
+0.117624 local search - EF main loop cycle 1 solution cost 0
+0.118555s Cost of SP solution after second stage solver 0
+Local search solution cost = 0
+Local search time = 0.0383241
+0.156901 local search - EF main loop cycle 2 solution cost 0
+0.157853s Cost of SP solution after second stage solver 0
+Number of cycles 3
+Time for each cycle 0.0526253
+0.158884s Cost of SP solution after tail step 0
+SELECTED RESOURCES:
+2 3 5 6 8 10 13 15 16 18 22 24 26 27 29 31 32 37 38 40 41 43 
+SCENARIO'S RESOURCES:
+S 0: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 1: 0 | 0 5 6 20 24 27 32 33 37 38 
+
+Final time = 0.159994
+Final solution cost = 0

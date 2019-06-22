@@ -1,0 +1,45 @@
+Reading instance small_stp_instances/gr24_10_05.stp of type D
+Finished instance reading
+Number of vertices = 24
+Number of edges (resources) = 276
+Number of scenarios = 10
+Average number of terminals per scenario = 24
+Probabilities of Scenarios: (0) 0.07 | (1) 0.17 | (2) 0.16 | (3) 0.06 | (4) 0.06 | (5) 0.04 | (6) 0.16 | (7) 0.13 | (8) 0.05 | (9) 0.1 | 
+Average weighted inflation = 0.242032
+Largest inflation = 0.496855
+MAX_ITERATIONS_SINCE_LAST_IMPROVEMENT 2
+MAX_ITERATIONS_SINCE_BEST_SOLUTION 3
+Creating solution instance.
+Starting Evolutive Framework.
+Local search solution cost = 1272
+Local search time = 4.42939
+4.42942 local search - EF main loop cycle 0 solution cost 1272
+4.43149s Cost of SP solution after second stage solver 1272
+Local search solution cost = 1272
+Local search time = 0.7488
+5.18031 local search - EF main loop cycle 1 solution cost 1272
+5.1825s Cost of SP solution after second stage solver 1272
+Local search solution cost = 1272
+Local search time = 0.749794
+5.93232 local search - EF main loop cycle 2 solution cost 1272
+5.9344s Cost of SP solution after second stage solver 1272
+Number of cycles 3
+Time for each cycle 1.97814
+5.93648s Cost of SP solution after tail step 1272
+SELECTED RESOURCES:
+17 20 40 47 55 58 74 90 92 105 115 129 152 167 172 184 194 197 227 228 234 239 258 260 
+SCENARIO'S RESOURCES:
+S 0: 0 | 17 20 40 47 55 58 74 90 92 105 115 129 152 167 172 184 194 197 227 228 234 239 258 260 
+S 1: 0 | 17 20 40 47 55 58 74 90 92 105 115 129 152 167 172 184 194 197 227 228 234 239 258 260 
+S 2: 0 | 17 20 40 47 55 58 74 90 92 105 115 129 152 167 172 184 194 197 227 228 234 239 258 260 
+S 3: 0 | 17 20 40 47 55 58 74 90 92 105 115 129 152 167 172 184 194 197 227 228 234 239 258 260 
+S 4: 0 | 17 20 40 47 55 58 74 90 92 105 115 129 152 167 172 184 194 197 227 228 234 239 258 260 
+S 5: 0 | 17 20 40 47 55 58 74 90 92 105 115 129 152 167 172 184 194 197 227 228 234 239 258 260 
+S 6: 0 | 17 20 40 47 55 58 74 90 92 105 115 129 152 167 172 184 194 197 227 228 234 239 258 260 
+S 7: 0 | 17 20 40 47 55 58 74 90 92 105 115 129 152 167 172 184 194 197 227 228 234 239 258 260 
+S 8: 0 | 17 20 40 47 55 58 74 90 92 105 115 129 152 167 172 184 194 197 227 228 234 239 258 260 
+S 9: 0 | 17 20 40 47 55 58 74 90 92 105 115 129 152 167 172 184 194 197 227 228 234 239 258 260 
+ALL EQUAL
+
+Final time = 5.93929
+Final solution cost = 1272

@@ -1,0 +1,24 @@
+Input format for the 2-Stage Stochastic TSP instance:
+<K>
+<V>
+<Pr 1>
+...
+<Pr K>
+<C11_0>,...,<C1V_0>
+...
+<CV1_0>,...,<CVV_0>
+<C11_1>,...,<C1V_1>
+...
+<CV1_1>,...,<CVV_1>
+.
+.
+.
+<C11_K>,...,<C1V_K>
+...
+<CV1_K>,...,<CVV_K>
+
+where:
+K - number of scenarios
+V - number of vertices
+Pr k - probability of realization of scenario i
+Cij_k - cost of edge (i,j) for scenario k (k = 0 means first stage, 0 < k <= K means second stage scenarios)

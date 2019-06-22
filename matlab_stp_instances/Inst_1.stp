@@ -1,0 +1,42 @@
+SECTION Comment
+Auto Generated file.
+Name "Inst_1"
+Problem "Stochastic Traveling Salesman Problem"
+Dimension: 4
+Scenarios: 5
+END
+
+SECTION Graph
+Nodes 4
+Edges 6
+Scenarios 5
+Root 0
+E 2 1 230
+E 3 1 4117
+E 3 2 0
+E 4 1 0
+E 4 2 0
+E 4 3 2491
+END
+
+SECTION StochasticProbabilities
+SP 0.3355189180329363 0.1189961652912684 0.2046049895139971 0.07824288875652355 0.2626370384052747
+END
+
+SECTION StochasticWeights
+SE 0 0 0 0 0
+SE 0 0 0 0 0
+SE 3975 934 2448 2227 3231
+SE 1585 4751 172 2193 1907
+SE 3773 1380 3398 3275 813
+SE 0 0 0 0 0
+END
+
+SECTION StochasticTerminals
+ST 1 1 1 1 1 1
+ST 2 1 1 1 1 1
+ST 3 1 1 1 1 1
+ST 4 1 1 1 1 1
+END
+
+EOF

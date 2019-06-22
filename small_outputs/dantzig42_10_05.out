@@ -1,0 +1,45 @@
+Reading instance small_stp_instances/dantzig42_10_05.stp of type D
+Finished instance reading
+Number of vertices = 42
+Number of edges (resources) = 861
+Number of scenarios = 10
+Average number of terminals per scenario = 42
+Probabilities of Scenarios: (0) 0.17 | (1) 0.02 | (2) 0.12 | (3) 0.15 | (4) 0.09 | (5) 0.06 | (6) 0.13 | (7) 0 | (8) 0.15 | (9) 0.11 | 
+Average weighted inflation = 0.24017
+Largest inflation = 0.497297
+MAX_ITERATIONS_SINCE_LAST_IMPROVEMENT 2
+MAX_ITERATIONS_SINCE_BEST_SOLUTION 3
+Creating solution instance.
+Starting Evolutive Framework.
+Local search solution cost = 700
+Local search time = 30.2861
+30.2862 local search - EF main loop cycle 0 solution cost 700
+30.2891s Cost of SP solution after second stage solver 700
+Local search solution cost = 700
+Local search time = 5.1433
+35.4324 local search - EF main loop cycle 1 solution cost 700
+35.4354s Cost of SP solution after second stage solver 700
+Local search solution cost = 700
+Local search time = 4.78992
+40.2253 local search - EF main loop cycle 2 solution cost 700
+40.2282s Cost of SP solution after second stage solver 700
+Number of cycles 3
+Time for each cycle 13.4094
+40.2312s Cost of SP solution after tail step 700
+SELECTED RESOURCES:
+0 1 5 9 14 20 27 35 44 54 65 77 90 104 119 135 152 170 189 209 230 252 275 299 324 350 377 405 434 464 495 527 560 594 629 665 702 740 779 819 821 860 
+SCENARIO'S RESOURCES:
+S 0: 0 | 0 1 5 9 14 20 27 35 44 54 65 77 90 104 119 135 152 170 189 209 230 252 275 299 324 350 377 405 434 464 495 527 560 594 629 665 702 740 779 819 821 860 
+S 1: 0 | 0 1 5 9 14 20 27 35 44 54 65 77 90 104 119 135 152 170 189 209 230 252 275 299 324 350 377 405 434 464 495 527 560 594 629 665 702 740 779 819 821 860 
+S 2: 0 | 0 1 5 9 14 20 27 35 44 54 65 77 90 104 119 135 152 170 189 209 230 252 275 299 324 350 377 405 434 464 495 527 560 594 629 665 702 740 779 819 821 860 
+S 3: 0 | 0 1 5 9 14 20 27 35 44 54 65 77 90 104 119 135 152 170 189 209 230 252 275 299 324 350 377 405 434 464 495 527 560 594 629 665 702 740 779 819 821 860 
+S 4: 0 | 0 1 5 9 14 20 27 35 44 54 65 77 90 104 119 135 152 170 189 209 230 252 275 299 324 350 377 405 434 464 495 527 560 594 629 665 702 740 779 819 821 860 
+S 5: 0 | 0 1 5 9 14 20 27 35 44 54 65 77 90 104 119 135 152 170 189 209 230 252 275 299 324 350 377 405 434 464 495 527 560 594 629 665 702 740 779 819 821 860 
+S 6: 0 | 0 1 5 9 14 20 27 35 44 54 65 77 90 104 119 135 152 170 189 209 230 252 275 299 324 350 377 405 434 464 495 527 560 594 629 665 702 740 779 819 821 860 
+S 7: 0 | 0 1 5 9 14 20 27 35 44 54 65 77 90 104 119 135 152 170 189 209 230 252 275 299 324 350 377 405 434 464 495 527 560 594 629 665 702 740 779 819 821 860 
+S 8: 0 | 0 1 5 9 14 20 27 35 44 54 65 77 90 104 119 135 152 170 189 209 230 252 275 299 324 350 377 405 434 464 495 527 560 594 629 665 702 740 779 819 821 860 
+S 9: 0 | 0 1 5 9 14 20 27 35 44 54 65 77 90 104 119 135 152 170 189 209 230 252 275 299 324 350 377 405 434 464 495 527 560 594 629 665 702 740 779 819 821 860 
+ALL EQUAL
+
+Final time = 40.2359
+Final solution cost = 700

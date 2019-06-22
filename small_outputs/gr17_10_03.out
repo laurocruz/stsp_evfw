@@ -1,0 +1,45 @@
+Reading instance small_stp_instances/gr17_10_03.stp of type D
+Finished instance reading
+Number of vertices = 17
+Number of edges (resources) = 136
+Number of scenarios = 10
+Average number of terminals per scenario = 17
+Probabilities of Scenarios: (0) 0.2 | (1) 0.02 | (2) 0.09 | (3) 0.13 | (4) 0.16 | (5) 0.04 | (6) 0.1 | (7) 0.12 | (8) 0.08 | (9) 0.06 | 
+Average weighted inflation = 0.148681
+Largest inflation = 0.298507
+MAX_ITERATIONS_SINCE_LAST_IMPROVEMENT 2
+MAX_ITERATIONS_SINCE_BEST_SOLUTION 3
+Creating solution instance.
+Starting Evolutive Framework.
+Local search solution cost = 2088
+Local search time = 1.31692
+1.31694 local search - EF main loop cycle 0 solution cost 2088
+1.31875s Cost of SP solution after second stage solver 2088
+Local search solution cost = 2088
+Local search time = 0.283577
+1.60234 local search - EF main loop cycle 1 solution cost 2088
+1.60415s Cost of SP solution after second stage solver 2088
+Local search solution cost = 2088
+Local search time = 0.280715
+1.88489 local search - EF main loop cycle 2 solution cost 2088
+1.88669s Cost of SP solution after second stage solver 2088
+Number of cycles 3
+Time for each cycle 0.6289
+1.88849s Cost of SP solution after tail step 2088
+SELECTED RESOURCES:
+7 15 26 27 32 37 47 54 63 66 69 93 104 108 116 125 133 
+SCENARIO'S RESOURCES:
+S 0: 0 | 7 15 26 27 32 37 47 54 63 66 69 93 104 108 116 125 133 
+S 1: 0 | 7 15 26 27 32 37 47 54 63 66 69 93 104 108 116 125 133 
+S 2: 0 | 7 15 26 27 32 37 47 54 63 66 69 93 104 108 116 125 133 
+S 3: 0 | 7 15 26 27 32 37 47 54 63 66 69 93 104 108 116 125 133 
+S 4: 0 | 7 15 26 27 32 37 47 54 63 66 69 93 104 108 116 125 133 
+S 5: 0 | 7 15 26 27 32 37 47 54 63 66 69 93 104 108 116 125 133 
+S 6: 0 | 7 15 26 27 32 37 47 54 63 66 69 93 104 108 116 125 133 
+S 7: 0 | 7 15 26 27 32 37 47 54 63 66 69 93 104 108 116 125 133 
+S 8: 0 | 7 15 26 27 32 37 47 54 63 66 69 93 104 108 116 125 133 
+S 9: 0 | 7 15 26 27 32 37 47 54 63 66 69 93 104 108 116 125 133 
+ALL EQUAL
+
+Final time = 1.89073
+Final solution cost = 2088

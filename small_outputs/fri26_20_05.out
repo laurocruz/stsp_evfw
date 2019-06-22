@@ -1,0 +1,55 @@
+Reading instance small_stp_instances/fri26_20_05.stp of type D
+Finished instance reading
+Number of vertices = 26
+Number of edges (resources) = 325
+Number of scenarios = 20
+Average number of terminals per scenario = 26
+Probabilities of Scenarios: (0) 0.05 | (1) 0.06 | (2) 0.04 | (3) 0.03 | (4) 0.07 | (5) 0.03 | (6) 0.07 | (7) 0 | (8) 0.05 | (9) 0.05 | (10) 0.06 | (11) 0.03 | (12) 0.06 | (13) 0.03 | (14) 0.07 | (15) 0.06 | (16) 0.04 | (17) 0.07 | (18) 0.12 | (19) 0.01 | 
+Average weighted inflation = 0.242817
+Largest inflation = 0.497462
+MAX_ITERATIONS_SINCE_LAST_IMPROVEMENT 2
+MAX_ITERATIONS_SINCE_BEST_SOLUTION 3
+Creating solution instance.
+Starting Evolutive Framework.
+Local search solution cost = 937
+Local search time = 12.2309
+12.231 local search - EF main loop cycle 0 solution cost 937
+12.2353s Cost of SP solution after second stage solver 937
+Local search solution cost = 937
+Local search time = 1.87909
+14.1144 local search - EF main loop cycle 1 solution cost 937
+14.1186s Cost of SP solution after second stage solver 937
+Local search solution cost = 937
+Local search time = 1.87894
+15.9976 local search - EF main loop cycle 2 solution cost 937
+16.0019s Cost of SP solution after second stage solver 937
+Number of cycles 3
+Time for each cycle 5.33397
+16.0061s Cost of SP solution after tail step 937
+SELECTED RESOURCES:
+0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+SCENARIO'S RESOURCES:
+S 0: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 1: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 2: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 3: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 4: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 5: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 6: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 7: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 8: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 9: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 10: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 11: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 12: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 13: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 14: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 15: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 16: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 17: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 18: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 19: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+ALL EQUAL
+
+Final time = 16.0117
+Final solution cost = 937

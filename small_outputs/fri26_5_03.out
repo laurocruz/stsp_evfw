@@ -1,0 +1,40 @@
+Reading instance small_stp_instances/fri26_5_03.stp of type D
+Finished instance reading
+Number of vertices = 26
+Number of edges (resources) = 325
+Number of scenarios = 5
+Average number of terminals per scenario = 26
+Probabilities of Scenarios: (0) 0.49 | (1) 0.01 | (2) 0.05 | (3) 0.19 | (4) 0.26 | 
+Average weighted inflation = 0.14581
+Largest inflation = 0.297297
+MAX_ITERATIONS_SINCE_LAST_IMPROVEMENT 2
+MAX_ITERATIONS_SINCE_BEST_SOLUTION 3
+Creating solution instance.
+Starting Evolutive Framework.
+Local search solution cost = 937
+Local search time = 2.71154
+2.71156 local search - EF main loop cycle 0 solution cost 937
+2.71265s Cost of SP solution after second stage solver 937
+Local search solution cost = 937
+Local search time = 0.472966
+3.18563 local search - EF main loop cycle 1 solution cost 937
+3.18682s Cost of SP solution after second stage solver 937
+Local search solution cost = 937
+Local search time = 0.473046
+3.65988 local search - EF main loop cycle 2 solution cost 937
+3.66096s Cost of SP solution after second stage solver 937
+Number of cycles 3
+Time for each cycle 1.22032
+3.66203s Cost of SP solution after tail step 937
+SELECTED RESOURCES:
+0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+SCENARIO'S RESOURCES:
+S 0: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 1: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 2: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 3: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+S 4: 0 | 0 2 5 13 14 19 27 35 44 65 77 87 103 104 115 152 168 188 189 206 230 275 276 299 321 322 
+ALL EQUAL
+
+Final time = 3.66364
+Final solution cost = 937

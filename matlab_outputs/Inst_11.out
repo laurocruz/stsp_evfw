@@ -1,0 +1,59 @@
+Reading instance matlab_stp_instances/Inst_11.stp of type D
+Finished instance reading
+Number of vertices = 8
+Number of edges (resources) = 28
+Number of scenarios = 25
+Average number of terminals per scenario = 8
+Probabilities of Scenarios: (0) 0.0229937 | (1) 0.0294883 | (2) 0.018783 | (3) 0.0136947 | (4) 0.0571073 | (5) 0.0298783 | (6) 0.0616976 | (7) 0.0271861 | (8) 0.0534513 | (9) 0.0275759 | (10) 0.0561895 | (11) 0.0524757 | (12) 0.0262279 | (13) 0.0150127 | (14) 0.0549311 | (15) 0.065974 | (16) 0.0227649 | (17) 0.046651 | (18) 0.0304846 | (19) 0.057926 | (20) 0.0534332 | (21) 0.0116237 | (22) 0.0599052 | (23) 0.0687933 | (24) 0.035751 | 
+Average weighted inflation = inf
+Largest inflation = inf
+MAX_ITERATIONS_SINCE_LAST_IMPROVEMENT 2
+MAX_ITERATIONS_SINCE_BEST_SOLUTION 3
+Creating solution instance.
+Starting Evolutive Framework.
+Local search solution cost = 0
+Local search time = 0.275937
+0.275962 local search - EF main loop cycle 0 solution cost 0
+0.28414s Cost of SP solution after second stage solver 0
+Local search solution cost = 0
+Local search time = 0.243118
+0.52729 local search - EF main loop cycle 1 solution cost 0
+0.535348s Cost of SP solution after second stage solver 0
+Local search solution cost = 0
+Local search time = 0.237049
+0.772426 local search - EF main loop cycle 2 solution cost 0
+0.780606s Cost of SP solution after second stage solver 0
+Number of cycles 3
+Time for each cycle 0.260212
+0.788751s Cost of SP solution after tail step 0
+SELECTED RESOURCES:
+2 5 10 16 20 25 27 
+SCENARIO'S RESOURCES:
+S 0: 0 | 2 3 7 13 19 20 21 23 
+S 1: 0 | 2 3 7 13 19 20 21 23 
+S 2: 0 | 2 3 7 13 19 20 21 23 
+S 3: 0 | 2 3 7 13 19 20 21 23 
+S 4: 0 | 2 3 7 13 19 20 21 23 
+S 5: 0 | 2 3 7 13 19 20 21 23 
+S 6: 0 | 2 3 7 13 19 20 21 23 
+S 7: 0 | 2 3 7 13 19 20 21 23 
+S 8: 0 | 2 3 7 13 19 20 21 23 
+S 9: 0 | 2 3 7 13 19 20 21 23 
+S 10: 0 | 2 3 7 13 19 20 21 23 
+S 11: 0 | 2 3 7 13 19 20 21 23 
+S 12: 0 | 2 3 7 13 19 20 21 23 
+S 13: 0 | 2 3 7 13 19 20 21 23 
+S 14: 0 | 2 3 7 13 19 20 21 23 
+S 15: 0 | 2 3 7 13 19 20 21 23 
+S 16: 0 | 2 3 7 13 19 20 21 23 
+S 17: 0 | 2 3 7 13 19 20 21 23 
+S 18: 0 | 2 3 7 13 19 20 21 23 
+S 19: 0 | 2 3 7 13 19 20 21 23 
+S 20: 0 | 2 3 7 13 19 20 21 23 
+S 21: 0 | 2 3 7 13 19 20 21 23 
+S 22: 0 | 2 3 7 13 19 20 21 23 
+S 23: 0 | 2 3 7 13 19 20 21 23 
+S 24: 0 | 2 3 7 13 19 20 21 23 
+
+Final time = 0.799026
+Final solution cost = 0

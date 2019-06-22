@@ -1,0 +1,13 @@
+Reading instance small_stp_instances/d198_5_05.stp of type D
+Finished instance reading
+Number of vertices = 198
+Number of edges (resources) = 19503
+Number of scenarios = 5
+Average number of terminals per scenario = 198
+Probabilities of Scenarios: (0) 0.13 | (1) 0.13 | (2) 0.26 | (3) 0.23 | (4) 0.25 | 
+Average weighted inflation = 0.249174
+Largest inflation = 0.499806
+MAX_ITERATIONS_SINCE_LAST_IMPROVEMENT 2
+MAX_ITERATIONS_SINCE_BEST_SOLUTION 3
+Creating solution instance.
+Starting Evolutive Framework.

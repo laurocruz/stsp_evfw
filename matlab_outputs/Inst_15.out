@@ -1,0 +1,59 @@
+Reading instance matlab_stp_instances/Inst_15.stp of type D
+Finished instance reading
+Number of vertices = 10
+Number of edges (resources) = 45
+Number of scenarios = 25
+Average number of terminals per scenario = 10
+Probabilities of Scenarios: (0) 0.0231521 | (1) 0.0297804 | (2) 0.0136692 | (3) 0.0312478 | (4) 0.0109238 | (5) 0.0793885 | (6) 0.0084653 | (7) 0.0835087 | (8) 0.0358282 | (9) 0.0042562 | (10) 0.0307419 | (11) 0.0660827 | (12) 0.0713548 | (13) 0.0489273 | (14) 0.0616163 | (15) 0.0802397 | (16) 0.00491978 | (17) 0.0272659 | (18) 0.00414756 | (19) 0.0175519 | (20) 0.064664 | (21) 0.0648065 | (22) 0.0788179 | (23) 0.0522969 | (24) 0.00634678 | 
+Average weighted inflation = inf
+Largest inflation = inf
+MAX_ITERATIONS_SINCE_LAST_IMPROVEMENT 2
+MAX_ITERATIONS_SINCE_BEST_SOLUTION 3
+Creating solution instance.
+Starting Evolutive Framework.
+Local search solution cost = 0
+Local search time = 0.596141
+0.596167 local search - EF main loop cycle 0 solution cost 0
+0.606977s Cost of SP solution after second stage solver 0
+Local search solution cost = 0
+Local search time = 0.593393
+1.20043 local search - EF main loop cycle 1 solution cost 0
+1.21226s Cost of SP solution after second stage solver 0
+Local search solution cost = 0
+Local search time = 0.653339
+1.86567 local search - EF main loop cycle 2 solution cost 0
+1.8775s Cost of SP solution after second stage solver 0
+Number of cycles 3
+Time for each cycle 0.625852
+1.89025s Cost of SP solution after tail step 0
+SELECTED RESOURCES:
+0 1 3 4 5 7 12 13 14 15 17 20 26 27 30 32 34 38 39 41 42 43 44 
+SCENARIO'S RESOURCES:
+S 0: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 1: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 2: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 3: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 4: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 5: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 6: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 7: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 8: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 9: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 10: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 11: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 12: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 13: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 14: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 15: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 16: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 17: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 18: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 19: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 20: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 21: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 22: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 23: 0 | 0 5 6 20 24 27 32 33 37 38 
+S 24: 0 | 0 5 6 20 24 27 32 33 37 38 
+
+Final time = 1.90424
+Final solution cost = 0

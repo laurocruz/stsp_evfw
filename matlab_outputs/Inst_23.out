@@ -1,0 +1,44 @@
+Reading instance matlab_stp_instances/Inst_23.stp of type D
+Finished instance reading
+Number of vertices = 15
+Number of edges (resources) = 105
+Number of scenarios = 10
+Average number of terminals per scenario = 15
+Probabilities of Scenarios: (0) 0.121602 | (1) 0.06633 | (2) 0.152738 | (3) 0.0972481 | (4) 0.105232 | (5) 0.0979875 | (6) 0.086542 | (7) 0.0359253 | (8) 0.0572617 | (9) 0.179133 | 
+Average weighted inflation = -nan
+Largest inflation = inf
+MAX_ITERATIONS_SINCE_LAST_IMPROVEMENT 2
+MAX_ITERATIONS_SINCE_BEST_SOLUTION 3
+Creating solution instance.
+Starting Evolutive Framework.
+Local search solution cost = 0
+Local search time = 1.0881
+1.08813 local search - EF main loop cycle 0 solution cost 0
+1.09741s Cost of SP solution after second stage solver 0
+Local search solution cost = 0
+Local search time = 0.898636
+1.99613 local search - EF main loop cycle 1 solution cost 0
+2.00448s Cost of SP solution after second stage solver 0
+Local search solution cost = 0
+Local search time = 0.897923
+2.90248 local search - EF main loop cycle 2 solution cost 0
+2.91124s Cost of SP solution after second stage solver 0
+Number of cycles 3
+Time for each cycle 0.970423
+2.91934s Cost of SP solution after tail step 0
+SELECTED RESOURCES:
+0 2 4 8 11 14 16 18 20 21 25 26 30 32 34 35 36 37 40 44 45 46 47 48 49 50 51 53 61 63 64 66 68 69 76 77 80 82 83 84 85 86 87 89 90 91 95 97 98 99 100 101 102 104 
+SCENARIO'S RESOURCES:
+S 0: 0 | 12 17 22 24 28 44 46 54 55 59 70 83 90 94 97 
+S 1: 0 | 12 17 22 24 28 44 46 54 55 59 70 83 90 94 97 
+S 2: 0 | 12 17 22 24 28 44 46 54 55 59 70 83 90 94 97 
+S 3: 0 | 12 17 22 24 28 44 46 54 55 59 70 83 90 94 97 
+S 4: 0 | 12 17 22 24 28 44 46 54 55 59 70 83 90 94 97 
+S 5: 0 | 12 17 22 24 28 44 46 54 55 59 70 83 90 94 97 
+S 6: 0 | 12 17 22 24 28 44 46 54 55 59 70 83 90 94 97 
+S 7: 0 | 12 17 22 24 28 44 46 54 55 59 70 83 90 94 97 
+S 8: 0 | 12 17 22 24 28 44 46 54 55 59 70 83 90 94 97 
+S 9: 0 | 12 17 22 24 28 44 46 54 55 59 70 83 90 94 97 
+
+Final time = 2.93001
+Final solution cost = 0
