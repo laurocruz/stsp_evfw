@@ -1,0 +1,40 @@
+Reading instance small_stp_instances/swiss42_5_05.stp of type D
+Finished instance reading
+Number of vertices = 42
+Number of edges (resources) = 861
+Number of scenarios = 5
+Average number of terminals per scenario = 42
+Probabilities of Scenarios: (0) 0.1 | (1) 0.28 | (2) 0.2 | (3) 0.27 | (4) 0.15 | 
+Average weighted inflation = 0.241709
+Largest inflation = 0.496933
+MAX_ITERATIONS_SINCE_LAST_IMPROVEMENT 2
+MAX_ITERATIONS_SINCE_BEST_SOLUTION 3
+Creating solution instance.
+Starting Evolutive Framework.
+Local search solution cost = 1273
+Local search time = 18.2942
+18.2942 local search - EF main loop cycle 0 solution cost 1273
+18.2958s Cost of SP solution after second stage solver 1273
+Local search solution cost = 1273
+Local search time = 2.40853
+20.7044 local search - EF main loop cycle 1 solution cost 1273
+20.7066s Cost of SP solution after second stage solver 1273
+Local search solution cost = 1273
+Local search time = 2.41212
+23.1188 local search - EF main loop cycle 2 solution cost 1273
+23.1203s Cost of SP solution after second stage solver 1273
+Number of cycles 3
+Time for each cycle 7.70678
+23.1219s Cost of SP solution after tail step 1273
+SELECTED RESOURCES:
+0 5 9 16 19 53 77 83 134 135 143 165 184 185 219 262 310 311 330 343 353 405 434 464 482 496 548 593 594 615 661 665 673 681 725 733 763 765 801 804 828 843 
+SCENARIO'S RESOURCES:
+S 0: 0 | 0 5 9 16 19 53 77 83 134 135 143 165 184 185 219 262 310 311 330 343 353 405 434 464 482 496 548 593 594 615 661 665 673 681 725 733 763 765 801 804 828 843 
+S 1: 0 | 0 5 9 16 19 53 77 83 134 135 143 165 184 185 219 262 310 311 330 343 353 405 434 464 482 496 548 593 594 615 661 665 673 681 725 733 763 765 801 804 828 843 
+S 2: 0 | 0 5 9 16 19 53 77 83 134 135 143 165 184 185 219 262 310 311 330 343 353 405 434 464 482 496 548 593 594 615 661 665 673 681 725 733 763 765 801 804 828 843 
+S 3: 0 | 0 5 9 16 19 53 77 83 134 135 143 165 184 185 219 262 310 311 330 343 353 405 434 464 482 496 548 593 594 615 661 665 673 681 725 733 763 765 801 804 828 843 
+S 4: 0 | 0 5 9 16 19 53 77 83 134 135 143 165 184 185 219 262 310 311 330 343 353 405 434 464 482 496 548 593 594 615 661 665 673 681 725 733 763 765 801 804 828 843 
+ALL EQUAL
+
+Final time = 23.1255
+Final solution cost = 1273

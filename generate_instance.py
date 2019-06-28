@@ -212,7 +212,7 @@ def read_edges(input_file, dimension, edge_weight_type, edge_weight_format):
 
 
 def inflate_edge(edge, scenarios, factor_max):
-  return [int(edge * (random.random() * factor_max + 1)) for _ in range(scenarios)]
+  return [int(edge * ((random.random() * factor_max) + 1)) for _ in range(scenarios)]
 
 def write_output_file(output_file, dimension, edges, probabilities, factor_max):
     # Comment section.
